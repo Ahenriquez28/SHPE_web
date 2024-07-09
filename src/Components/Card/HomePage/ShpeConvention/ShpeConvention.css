@@ -1,0 +1,48 @@
+.ShpeConvention-card {
+    position: relative;
+    z-index: 1;
+    background-color: #0033A0; /* Blue background */
+    color: white; /* Blue text */
+    padding: 20px; /* Padding around the content */
+    border-radius: 0px; /* Rounded corners */
+    text-align: center; /* Center-align content */
+    width: 32.4%; /* Set width of the card */
+    margin: 0 auto; /* Center the card horizontally */
+    height: 350px;
+    margin-top: -350px; /* Adjust margin to position it next to SHPE Jr. */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space evenly between elements */
+    margin-right: -0.005in;
+    overflow: auto;
+}
+
+.ShpeConvention-image {
+    margin: 0 auto;
+    align-self: flex-start; /* Adjust as needed */
+    margin-top: 1%; /* Maintain the top margin -20px */
+    margin-left: 38%; /* 180px */
+    width: 320px; /* 320px */
+    height: 320px;
+    object-fit: contain;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 10%;
+}
+
+.ShpeConvention-content {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.ShpeConvention-content h2 {
+    font-size: 30px; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+    margin-top: -20px;
+}
+
+.ShpeConvention-content p {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 20px; /* Adjust bottom margin as needed 20px */
+}

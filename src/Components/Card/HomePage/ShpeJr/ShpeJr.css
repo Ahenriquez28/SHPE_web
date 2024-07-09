@@ -1,0 +1,43 @@
+.ShpeJr-card {
+    position: relative;
+    z-index: 1;
+    background-color: white; /* White background */
+    color: #0033A0; /* Blue text */
+    padding: 20px; /* Padding around the content */
+    border-radius: 0px; /* Rounded corners */
+    text-align: center; /* Center-align content */
+    width: 5.02in; /* Set width of the card */
+    margin: 0 auto; /* Center the card horizontally */
+    height: 350px; /* Set height of the card */
+    width: 33%;
+    margin-top: -350px; /* Adjust margin to position it next to SHPE Jr. */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space evenly between elements */
+    overflow: auto;
+}
+
+.ShpeJr-image {
+    margin-top: 50px; /* Adjust top margin as needed */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Limit max height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the space */
+    border-top-left-radius: 8px; /* Ensure rounded corners match the card */
+    border-top-right-radius: 8px;
+}
+
+.ShpeJr-content {
+    padding: 20px;
+}
+
+.ShpeJr-content h2 {
+    font-size: 30px; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.ShpeJr-content p {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 110px; /* Adjust bottom margin as needed */
+}

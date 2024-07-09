@@ -1,0 +1,44 @@
+.Shpetinas-card {
+    position: relative;
+    z-index: 1;
+    background-color: #0033A0; /* Pink background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the content */
+    border-radius: 0; /* Rounded corners */
+    text-align: center; /* Center-align content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    width: 33%; /* Set width of the card (482 pixels) */
+    height: 350px; /* Set height of the card  350px*/
+    margin-left: 0; /* Center the card horizontally */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space evenly between elements */
+    position: relative; /* Ensure position is relative for absolute positioning */
+    overflow: auto;
+}
+
+.Shpetinas-image {
+    margin: 0 auto;
+    margin-left: 42%; /* Adjust margin as needed 200px */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Limit max height of the image */
+    object-fit: contain; /* Maintain aspect ratio and cover the space */
+    border-top-left-radius: 8px; /* Ensure rounded corners match the card */
+    border-top-right-radius: 8px;
+}
+
+.Shpetinas-content {
+    padding: 20px;
+}
+
+.Shpetinas-content h2 {
+    font-size: 30px; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.Shpetinas-content p {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 100px; /* Adjust bottom margin as needed */
+}

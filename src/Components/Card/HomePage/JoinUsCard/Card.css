@@ -1,0 +1,68 @@
+.card {
+    position: relative;
+    z-index: 1;
+    background-color: white; /* Red background */
+    color: #0033A0; /* White text */
+    padding: 20px; /* Padding around the content */
+    border-radius: 0px; /* Rounded corners */
+    text-align: center; /* Center-align content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    width: 32.3%; /* Set width of the card 32.3 450px*/
+    height: 250px; /* Set height of the card 250px */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Center content vertically */
+    margin-left: 67.7%; /* This line appears redundant, as it duplicates margin-left */
+    margin-top: -500px; /* Negative margin to adjust vertical position */
+    overflow-x: auto;
+
+}
+
+.card img {
+    width: 70px; /* Ensure the image fills the width of its container */
+    height: 70px; /* Ensure the image fills the height of its container */
+    object-fit: contain; /* Maintain aspect ratio and cover the space */
+    margin: 10px; /* Margin around the image */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white; /* Red background */
+}
+
+.card h2 {
+    font-size: 30px; /* Heading font size */
+    margin-bottom: 60px; /* Space below the heading */
+    background-color: white; /* Red background */
+}
+
+.card p {
+    font-size: 16px; /* Paragraph font size */
+    margin-top: -35px; /* Space below the paragraph */
+    background-color: white; /* Red background */
+}
+
+
+.card button {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+    background-color: #0033A0;
+    font-size: 16;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card button:hover {
+    background-color: rgb(242, 101, 52); 
+    color: white;
+}
+
+.card button:focus {
+    outline: none; 
+}

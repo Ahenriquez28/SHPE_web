@@ -1,0 +1,59 @@
+.sponsor-card {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(242, 101, 52); /* SHPE Blue */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    width: 32.3%; /* Set width of the card */
+    height: 250px; /* Set height of the card */
+    display: flex; /* Use flexbox to center content */
+    align-items: center;
+    margin-left: 67.7%;
+    margin-top: 0px;
+    overflow-x: auto;
+}
+
+.sponsor-logo img {
+    width: 100px; /* Size of the logo */
+    height: 100px; /* Size of the logo */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin: 0 auto 20px; /* Center the logo and add space below */
+    display: block; /* Ensure the image is centered */
+}
+
+.sponsor-content {
+    padding: 20px;
+}
+
+.sponsor-content h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.sponsor-content p {
+    font-size: 15px; /* Paragraph font size */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.sponsor-content button {
+    background-color: white; /* White button background */
+    color: #0033A0; /* SHPE Blue button text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Button text font size */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    outline: none; /* Remove outline on focus */
+}
+
+.sponsor-content button:hover {
+    background-color: #0033A0; /* SHPE Blue on hover */
+    color: white; /* White text on hover */
+}
+
+.sponsor-content button:focus {
+    outline: none; /* Remove outline on focus */
+}

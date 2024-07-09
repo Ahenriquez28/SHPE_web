@@ -1,0 +1,84 @@
+.resume-card {
+    background-color: white;
+    color: #0033A0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Ensure card does not exceed viewport width */
+    height: 450px; /* Fixed height for the card */
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
+}
+
+.resume-card iframe {
+    order: 2;
+    margin-right: 20px; /* Adjust spacing between iframe and content */
+}
+
+.resume-content {
+    flex: 1; /* Allow content to take up remaining space */
+    text-align: left; /* Left-align text within .resume-content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+}
+
+.resume-content h2 {
+    font-size: 3rem; /* Responsive font size */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.resume-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 0; /* Reset margin */
+    margin-top: 0; /* Reset margin */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.resume-content button {
+    background-color: #0033A0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 150px; /* Adjust width as needed */
+    height: 50px; /* Fixed height for the button */
+    margin-left: 0; /* Reset margin */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.resume-content button:hover {
+    background-color: rgb(242, 101, 52);
+}
+
+@media (max-width: 768px) {
+    .resume-card {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .resume-card iframe {
+        order: 1; /* Move iframe above content on smaller screens */
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 20px; /* Add bottom margin to iframe */
+    }
+
+    .resume-content {
+        order: 2; /* Move content below iframe on smaller screens */
+        text-align: center; /* Center-align text on smaller screens */
+    }
+
+    .resume-content h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .resume-content button {
+        margin-left: 0; /* Reset margin */
+    }
+}

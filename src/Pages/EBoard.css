@@ -1,0 +1,41 @@
+/* EBoardPage.css */
+
+/* Container for the entire E-Board page */
+.e-board-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for individual E-Board member cards */
+  .member-card {
+    border: 1px solid #ccc; /* Add a border around each member card */
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Style for E-Board member photos */
+  .member-card img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
+  /* Heading style */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* E-Board member name style */
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* E-Board member role style */
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  

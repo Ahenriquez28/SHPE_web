@@ -1,0 +1,33 @@
+.footer {
+    position: relative; /* Ensure the footer stays fixed at the bottom */
+    bottom: 0; /* Position it at the bottom of the viewport */
+    left: 0; /* Align it to the left edge */
+    width: 100%; /* Make it span the full width of the viewport */
+    padding: 10px 5%; /* Padding around the content */
+    background-color: #0033A0; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    z-index: 100; /* Ensure it's above other content */
+}
+
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+}
+
+.footer-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+}
