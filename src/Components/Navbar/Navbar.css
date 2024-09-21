@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('path/to/univers-lt-std.woff2') format('woff2'),
-         url('path/to/univers-lt-std.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .header {
     position: fixed;
@@ -31,7 +24,7 @@
 }
 
 .logo-text {
-    color: #fff;
+    color: white;
     font-family: 'Univers LT Std', sans-serif;
     font-size: 18px;
     display: flex;

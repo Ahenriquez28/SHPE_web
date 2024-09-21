@@ -32,6 +32,7 @@
 }
 
 .card h2 {
+    margin-left: 0;
     font-size: 30px; /* Heading font size */
     margin-bottom: 60px; /* Space below the heading */
     background-color: white; /* Red background */

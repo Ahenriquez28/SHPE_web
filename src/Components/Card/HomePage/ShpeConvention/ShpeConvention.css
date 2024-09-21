@@ -39,6 +39,7 @@
     font-size: 30px; /* Heading font size */
     margin-bottom: 10px; /* Space below the heading */
     margin-top: -20px;
+    margin-left: 0;
 }
 
 .ShpeConvention-content p {

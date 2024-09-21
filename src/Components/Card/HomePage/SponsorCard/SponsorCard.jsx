@@ -11,7 +11,7 @@ const SponsorCard = () => {
             <div className="sponsor-content">
                 <h2><strong>Become a Sponsor!</strong></h2>
                 <p>Become a Sponsor for SHPE to help us reach our mission of assisting the Hispanic community reach their full potential and achieve academic and professional achievements!</p>
-                <Link to="/sponsor">
+                <Link to="/sponsors">
                     <button>Learn More</button>
                 </Link>
             </div>

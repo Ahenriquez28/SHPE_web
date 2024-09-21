@@ -1,0 +1,28 @@
+.Title {
+    font-size: 40px;
+    margin-left: 40%;
+    margin-top: 5%;
+    color: #0033A0;
+    font-weight: bold;
+    position: relative;
+}
+
+.Sub-title {
+    font-size: 20px;
+    margin-left: 25%;
+    position: relative ;
+    color: #0033A0;
+    width: 50%;
+}
+
+.Slider-container {
+    margin-top: 40px;
+    margin-left: 15%;
+    width: 1500px;
+    /* Add any additional styles you need for layout */
+  }
+  
+  h2 {
+    margin-left: 30%;
+    margin-bottom: 20px;
+  }

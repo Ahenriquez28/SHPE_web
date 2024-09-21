@@ -29,8 +29,9 @@
 
 .sponsor-content h2 {
     font-size: 24px; /* Heading font size */
+    margin-left: 0;
     margin-bottom: 10px; /* Space below the heading */
-}
+}   
 
 .sponsor-content p {
     font-size: 15px; /* Paragraph font size */

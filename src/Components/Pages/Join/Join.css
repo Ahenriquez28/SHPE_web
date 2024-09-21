@@ -1,0 +1,253 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%); /* Start from outside the left edge */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateX(0); /* End at its original position */
+    opacity: 1; /* End fully visible */
+  }
+}
+
+
+.join-container {
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove any default margin */
+  padding: 10% 5%; /* Adjusted top padding for better spacing */
+  box-sizing: border-box; /* Includes padding in the width and height calculations */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left side) */
+  justify-content: center; /* Center items vertically */
+}
+
+/* Title Styles */
+.join-main-title {
+  font-size: 90px; /* Title font size */
+  position: relative;
+  font-weight: bold;
+  color: #0033A0; /* Dark text color */
+  text-align: left; /* Aligns text to the left */
+  width: 100%; /* Ensure the title takes up the full width of the container */
+  bottom: -50%; /* Adjusted bottom position for better spacing */
+  animation: slideIn 1s ease-out;
+}
+
+/* Gears Image Styles */
+.gears-image {
+  width: 35%; /* 25% of the container's width */
+  height: auto; /* Maintain aspect ratio */
+  position: relative;
+  top: -300px; /* Adjusted top position to move higher */
+  opacity: 0.4;
+}
+
+/* Collab Image Styles */
+.collab-image {
+  width: 60%; /* 60% of the container's width */
+  height: auto; /* Maintain aspect ratio */
+  position: relative;
+  left: 40%;
+  top: -350px; /* Adjusted top position to move higher */
+  transform: translateX(-50%);
+  opacity: 0.2;
+}
+
+/* Subtitle Styles */
+.join-subtitle {
+  font-size: 30px; /* Subtitle font size */
+  color: #0033A0; /* Dark text color */
+  text-align: left; /* Aligns text to the left */
+  width: 100%; /* Ensure the subtitle takes up the full width of the container */
+  position: relative;
+  top: 100%; /* Adjusted top position for better spacing */
+  animation: slideIn 1s ease-out;
+}
+
+/* Description Styles */
+.join-description {
+  font-size: 17px;
+  width: 40%;
+  position: relative;
+  top: 120%; /* Adjusted top position for better spacing */
+  animation: slideIn 1s ease-out;
+}
+
+/* Giant Card Styles */
+.giant-card {
+  width: 100%; /* Full width of the container */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%; /* Adjusted margin-top to move higher */
+}
+
+/* Card Section Styles */
+.card-section {
+  width: 30%; /* Three equal sections */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 220px; /* Adjusted margin-top to move higher */
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.card-description {
+  font-size: 16px;
+}
+
+/* Color Styles */
+.orange {
+  background-color: #FF6F00; /* Orange color */
+}
+
+.blue {
+  background-color: #0033A0; /* Blue color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .join-main-title {
+    font-size: 24px; /* Smaller font size for smaller screens */
+  }
+
+  .join-subtitle {
+    font-size: 18px; /* Smaller font size for smaller screens */
+  }
+
+  .join-description {
+    width: 100%; /* Full width for smaller screens */
+    font-size: 14px; /* Smaller font size */
+    position: relative;
+    top: 0; /* Reset top position */
+  }
+
+  .giant-card {
+    flex-direction: column; /* Stack sections vertically */
+  }
+
+  .card-section {
+    width: 100%; /* Full width for each section */
+    margin-bottom: 20px; /* Add space between sections */
+  }
+}
+
+/* Involved Styles */
+.involved {
+  position: absolute; /* Changed to relative to contain the stars */
+  font-size: 60px;
+  font-weight: bold;
+  left: 5%;
+  top: 130%;
+  background-color: #0033A0;
+  padding: 12%;
+  text-align: left;
+  width: 90%;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+ 
+}
+
+.group {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.active {
+  font-size: 60px;
+  position: relative;
+  margin-top: 30px;
+  left: 35%;
+  font-weight: bold;
+  color: #0033A0;
+}
+
+.groupMe {
+  font-size: 40px;
+  position: relative;
+  color: #0033A0;
+}
+
+.groupMe::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value as needed */
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline */
+  background-color: #0033A0; /* Orange color */
+}
+
+.pin {
+  font-size: 40px;
+  position: absolute;
+  color: #0033A0; 
+  left: 80%;
+  top: 241%;
+}
+
+.pin::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value as needed */
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline */
+  background-color: #0033A0; /* Orange color */
+}
+
+.Instagram {
+  font-size: 40px;
+  position: absolute;
+  left: 43.5%;
+  top: 241%;
+  color: #0033A0;
+}
+
+.Instagram::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value as needed */
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the underline */
+  background-color: #0033A0; /* Orange color */
+}
+
+.groupme-link {
+  width: 30%;
+  height: auto;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.insta-link {
+  width: 9%;
+  height: auto;
+  position: absolute;
+  top: 250.5%;
+  left: 46.2%;
+}
+
+.pin-link {
+  width: 9%;
+  height: auto;
+  position: absolute;
+  top: 250.5%;
+  left: 78.8%;
+}
